@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+body{
+    background-color: rgb(20, 73, 119);
+}
+#wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+#random{
+    padding: 2rem;
+    background-color: #fff;
+}
+input, button{
+    padding: 6px 12px;
+}
